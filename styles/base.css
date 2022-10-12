@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* navbar */
+header{
+    width: 100%;
+
+background-color:rgb(233, 233, 233) ;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+width: 45%;
+}
+/* Burger Menu */
+.bar{
+display: block;
+width:25px ;
+height:3px;
+margin: 5px 0;
+background-color: rgb(8, 8, 8);
+transition: all 0.5s ease;
+}
+
+/* Showcase */
+
+/* .showcase{
+    max-width: 350px;
+    margin: auto;
+    
+} */
+.hero{
+height: 200px;
+background-color: rgb(83, 83, 83);
+margin-top: 5px;
+}
+.events{
+    height: 200px;
+background-color: rgb(83, 83, 83);
+margin-top: 5px;
+}
+.weather{
+    height: 200px;
+background-color: rgb(83, 83, 83);
+margin-top: 5px;
+}
+.news{
+    height: 200px;
+background-color: rgb(83, 83, 83);
+margin-top: 5px;
+}
+.spotlights{
+    height: 320px;
+    background-color: rgb(83, 83, 83);
+margin-top: 5px;
+}
+.spotlight-1{
+    height: 150px;
+    background-color: #ccc;
+    padding: 20px;
+    margin: 5px;
+}
+.spotlight-2{
+    height: 150px;
+    background-color: #ccc;
+    margin: 5px;
+    padding: 20px;
+
+}
+p{
+    color: aliceblue;
+}
+
+footer{
+    width: 100%;
+    background-color: #ccc;
+    align-items: center;
+    text-align: center;
+}
+footer p{
+    color: black;
+}
+.logo-footer  img {
+    width: 150px;
+}
+.title-logo{
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+.phone {
+    margin-bottom: 15px;
+}
+.copyright{
+    margin-top: 15px;
+}
+.f-section-1{
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
