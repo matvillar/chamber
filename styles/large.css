@@ -1,0 +1,40 @@
+@media(min-width: 1024px){
+    body{
+         height: 100vh;
+         display: grid;
+         grid-template-rows: 100px 5fr 1fr;
+        
+    }
+    
+    header{
+        width: 100%;
+    }
+    main{
+        width: 98%;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 
+        'event hero spotlights'
+        'weather hero spotlights'
+        'join news spotlights';
+        grid-template-columns: 1.5fr 4fr 1.5fr;
+        
+       
+    }
+    .hero{
+        grid-area: hero;
+    }
+    .events{
+        grid-area: event;
+    }
+    .weather{
+        grid-area: weather;
+
+    }
+    .news{
+        grid-area: news;
+    }
+    .spotlights{
+        grid-area: spotlights;
+    }
+}
