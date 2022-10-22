@@ -67,6 +67,12 @@
     }
     .menu{
         display: block;
+        left: 0;
+        background-color: rgb(255, 249, 249);
+        margin-left: 150px;
+        position: unset;
+        
+
     }
    
     .menu ul{
@@ -87,11 +93,15 @@
     }
     .social-media{
         margin-left: 120px;
+        display: flex;
+        gap:10px
     }
 .menu li:hover{
     border-bottom: 2px solid black;
 }
 
-/* news */
+.hero-title{
+    display: block;
+}
 
 }
