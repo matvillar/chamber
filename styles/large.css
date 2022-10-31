@@ -14,7 +14,7 @@
     .date h4 span{
     font-size:1.3rem;
     font-style: italic;
-}
+    }
     /* grid template */
     main{
         /* width: 98%; */
@@ -107,5 +107,28 @@
 .hero-title{
     display: block;
 }
+/* discover page */
+.city-cards{
+    max-width: 1600px;
+    margin: auto;
+}
+.city-card{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    flex-direction: row-reverse;
+}
+.top-card {
+    width: 60%;
+    height: auto;
+}
+.bot-card img{
+    width: 100%;
+    height: auto;
+}
 
 }
+
+
+

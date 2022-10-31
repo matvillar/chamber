@@ -31,7 +31,7 @@ background-color:rgb(255, 249, 249) ;
     transition: 0.3s;
     left: -100%;
     width: 100%;
-    top: 70px;
+    top: 100px;
     z-index: 2;
 }
 .menu li{
@@ -318,6 +318,11 @@ footer p{
     padding: 20px;
     text-transform: uppercase;
 }
+.page-title h1{
+    color: #9c1d25;
+    font-size: 1.7rem;
+   
+}
 .city-cards{
     padding: 10px;
 }
@@ -330,11 +335,12 @@ footer p{
 .top-card{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 .city-card p{
     color:black;
 }
-.bot-card img{
+.bot-card  img{
     width: 100%;
     height: auto;
    
