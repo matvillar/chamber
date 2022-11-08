@@ -432,7 +432,42 @@ input[type='radio']:checked:after {
   background-color: #445c6c41;
   font-weight: bolder;
 }
-
+.member span {
+  font-size: 1.1rem;
+  color: #9c1d25;
+}
 .d-none {
   display: none;
+}
+.textarea {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Thank you page */
+.thank-you {
+  max-width: 400px;
+  margin: 80px auto;
+}
+
+.card.thank-you {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 5px 5px rgb(94, 94, 94);
+  padding: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.card.thank-you h3 {
+  font-size: 1.8rem;
+}
+.card.thank-you span {
+  color: #9c1d25;
+  font-size: 1.9rem;
 }
