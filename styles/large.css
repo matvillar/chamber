@@ -131,4 +131,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .directory-title h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
 }
