@@ -124,4 +124,11 @@
     box-shadow: 5px 5px 10px #888888;
     transform: scale(1.03);
   }
+
+  /* Directory */
+  .directory-cards {
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

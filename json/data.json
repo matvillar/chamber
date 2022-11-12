@@ -1,0 +1,85 @@
+{
+  "businessDir": [
+    {
+      "name": "3m",
+      "imageURL": "images/imagesDirectory/3M_png.png",
+      "url": "https://www.3m.com/",
+      "address": "2501 Hudson road, Maplewood, MN 55144",
+      "phone": "(307) 193-2021",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Asana",
+      "imageURL": "images/imagesDirectory/Asana-logo.png",
+      "url": "https://asana.com/",
+      "address": "633 Folsom Street, San Francisco, CA 94107",
+      "phone": "(380) 293-4341",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Ebay",
+      "imageURL": "images/imagesDirectory/ebay.png",
+      "url": "https://www.ebayinc.com/",
+      "address": "2700 Coast Avenue Mountain View, CA 94043",
+      "phone": "(408) 376-7400",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Intuit",
+      "imageURL": "images/imagesDirectory/intuit.png",
+      "url": "https://www.intuit.com/",
+      "address": "2700 Coast Avenue Mountain View, CA 94043",
+      "phone": "(408) 176-7403",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Microsoft",
+      "imageURL": "images/imagesDirectory/Microsoft.png",
+      "url": "https://www.microsoft.com/",
+      "address": "15010 NE 36th Street, Redmond, WA 98052",
+      "phone": "(308) 276-4403",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "MTV",
+      "imageURL": "images/imagesDirectory/MTV.png",
+      "url": "https://www.mtv.com/",
+      "address": "1515 Broadway, New York, NY 10036",
+      "phone": "(212) 846-6000",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Phillips",
+      "imageURL": "images/imagesDirectory/Philips.png",
+      "url": "https://www.usa.philips.com/",
+      "address": "222 Jacobs St, Cambridge, MA 02141",
+      "phone": "(800) 846-6000",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Visa",
+      "imageURL": "images/imagesDirectory/visa.png",
+      "url": "https://usa.visa.com/home2.html",
+      "address": "1004 NW 65th Ave, Miami, FL 33126",
+      "phone": "(407) 816-1000",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Xero",
+      "imageURL": "images/imagesDirectory/xero.png",
+      "url": "https://www.xero.com/us/",
+      "address": "1004 NW 65th Ave, Miami, FL 33126",
+      "phone": "(800) 247-1911",
+      "message": "Proctect your money.",
+      "membershipLevel": "Bronze"
+    }
+  ]
+}
