@@ -98,6 +98,7 @@
           <i class="fa-brands fa-facebook fa-2x"></i>
           <i class="fa-brands fa-linkedin fa-2x"></i>
         </div>
+
         <div class="burger-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -170,9 +171,13 @@
         <h2>Weather</h2>
         <div class="top-card">
           <i class="fa-solid fa-cloud fa-4x"></i>
-          <h3>79&deg;F</h3>
+          <h3><span id="temp">79</span>&deg;F</h3>
         </div>
         <h3>Mostly Cloudy</h3>
+        <div class="windchill">
+          <p>Wind Speed: <span id="windSpeed">3.5</span><span>mph</span></p>
+          <p>Wind Chill: <span id="windChill"></span></p>
+        </div>
       </div>
       <div class="news">
         <h2>Latest News</h2>
@@ -211,7 +216,7 @@
           Membership in a chamber of commerce also increases credibility with
           businesses and consumers.
         </p>
-        <div class="btn">Join US</div>
+        <div class="btn">Join Us</div>
       </div>
     </main>
     <footer>

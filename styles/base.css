@@ -190,11 +190,35 @@ header {
 .weather h3 {
   font-size: 1.9rem;
   text-transform: uppercase;
+  text-align: center;
+}
+.weather > h3::after {
+  background-color: #ccc;
+
+  content: '';
+  display: block;
+  height: 5px;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
+  width: 220px;
 }
 .top-card {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin: 20px 0 20px 0;
+}
+
+.windchill p {
+  color: #696767;
+  font-size: 1.3rem;
+  align-items: flex-start;
+  padding: 10px;
+}
+.windchill span {
+  color: #9c1d25;
+  font-size: 1.5;
 }
 /* news release */
 .news {
@@ -323,7 +347,7 @@ footer p {
 h2 {
   padding: 10px;
 }
-.top-card {
+.top-card-discover {
   display: flex;
   flex-direction: column;
   padding: 20px;
