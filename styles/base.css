@@ -185,7 +185,7 @@ header {
 }
 .weather i {
   color: #ccc;
-  margin-right: 20px;
+  padding-right: 20px;
 }
 .weather h3 {
   font-size: 1.9rem;
@@ -194,7 +194,6 @@ header {
 }
 .weather > h3::after {
   background-color: #ccc;
-
   content: '';
   display: block;
   height: 5px;
@@ -214,7 +213,7 @@ header {
   color: #696767;
   font-size: 1.3rem;
   align-items: flex-start;
-  padding: 10px;
+  padding: 20px;
 }
 .windchill span {
   color: #9c1d25;
