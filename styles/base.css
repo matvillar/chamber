@@ -183,7 +183,7 @@ header {
   padding-bottom: 5px;
   letter-spacing: 1.5px;
 }
-.weather i {
+#weather-icon {
   color: #ccc;
   padding-right: 20px;
 }
