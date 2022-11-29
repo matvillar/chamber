@@ -93,6 +93,15 @@
   .hero-title {
     display: block;
   }
+  /* latest news */
+  .news-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .img2 {
+    display: block;
+  }
   /* discover page */
   .page-title h1 {
     font-size: 2.7rem;
@@ -128,9 +137,9 @@
 
   /* Directory */
   .directory-cards {
-    margin: 10px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    place-items: center;
   }
   .directory-title h2 {
     font-size: 3rem;

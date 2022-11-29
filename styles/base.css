@@ -472,7 +472,7 @@ input[type='radio']:checked:after {
   color: #9c1d25;
 }
 .d-none {
-  display: none;
+  display: none !important;
 }
 .textarea {
   padding-top: 30px;
@@ -509,9 +509,10 @@ textarea {
 
 /* Directory */
 .directory-section {
-  margin: 10px auto;
+  /* margin: 10px auto; */
   text-align: center;
 }
+
 .directory-title h2 {
   color: #9c1d25;
   text-transform: uppercase;
@@ -529,9 +530,10 @@ textarea {
 .directory-menu img:hover {
   transform: scale(1.1);
 }
-.directory-menu img:active {
-  background-color: #bc8a33;
+.directory-menu .active {
+  background-color: #445c6c;
 }
+
 .directory-card {
   background-color: rgb(248, 248, 248);
   border-bottom: 6px solid #445c6c;
@@ -556,4 +558,26 @@ textarea {
 }
 .directory-card img {
   width: 50%;
+}
+.directory-list {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+.directory-list:nth-child(odd) {
+  background-color: #445c6c;
+}
+.directory-list:nth-child(even) p {
+  color: #445c6c;
+}
+.directory-list p {
+  font-weight: bolder;
+}
+.directory-list a {
+  color: white;
+}
+.directory-list:nth-child(even) a {
+  color: #445c6c;
 }
