@@ -7,6 +7,18 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #ccc;
 }
+/* banner */
+.banner {
+  background-color: #9c1d25;
+  text-align: center;
+  padding: 10px;
+}
+.banner p {
+  font-size: 0.7rem;
+}
+.n-display {
+  display: none;
+}
 /* navbar */
 header {
   width: 100%;

@@ -2,6 +2,8 @@ const dateHeader = document.getElementById('dateHeader');
 const lastUpdate = document.getElementById('date');
 const burger = document.querySelector('.burger-menu');
 const menu = document.querySelector('.menu');
+const banner = document.querySelector('.banner');
+const dayBanner = document.getElementById('dayVisit');
 
 // Current Date Header
 let date = new Date();
@@ -19,7 +21,7 @@ const months = [
   'September',
   'October',
   'November',
-  'December'
+  'December',
 ];
 const weekday = [
   'Sunday',
@@ -28,7 +30,7 @@ const weekday = [
   'Wednesday',
   'Thursday',
   'Friday',
-  'Saturday'
+  'Saturday',
 ];
 
 // return a formatted date
@@ -42,7 +44,7 @@ burger.addEventListener('click', () => {
   menu.classList.toggle('active');
 });
 
-document.querySelectorAll('.menu li').forEach(n =>
+document.querySelectorAll('.menu li').forEach((n) =>
   n.addEventListener('click', () => {
     burger.classList.remove('active');
     menu.classList.remove('active');
@@ -53,5 +55,16 @@ document.getElementById('year').textContent = new Date().getFullYear();
 function lastEdit() {
   lastUpdate.textContent = document.lastModified;
 }
+// Banner
 
+function greetBanner() {
+  if (date.getDay() === 1) {
+    dayBanner.innerHTML = weekday[1];
+    banner.classList.remove('n-display');
+  } else if (date.getDay() === 2) {
+    dayBanner.innerHTML = weekday[2];
+    banner.classList.remove('n-display');
+  }
+}
+greetBanner();
 lastEdit();
