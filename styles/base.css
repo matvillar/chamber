@@ -25,6 +25,11 @@ header {
 
   background-color: rgb(255, 249, 249);
 }
+.social-media i:hover {
+  color: #9c1d25;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.3s;
+}
 .date {
   text-align: center;
   border-top: 1px solid #445c6c;
@@ -56,9 +61,9 @@ header {
   font-weight: bold;
 }
 
-.menu.active {
+/* .menu.active {
   left: 0;
-}
+} */
 .navbar {
   padding: 20px;
   display: flex;
