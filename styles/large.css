@@ -103,7 +103,7 @@
     display: block;
   }
   /* discover page */
-  .page-title h1 {
+  .page-title h2 {
     font-size: 2.7rem;
   }
   .city-cards {
@@ -144,5 +144,13 @@
   .directory-title h2 {
     font-size: 3rem;
     margin-bottom: 20px;
+  }
+  /* Join */
+  .left-contact {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 }

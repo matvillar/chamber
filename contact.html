@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/1667236160.ico"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <title>Contact | Cherokee County Chamber Of Commerce</title>
+  </head>
+  <body>
+    <div class="banner n-display">
+      <p>
+        🤝🏼 Come join us for the chamber meet and greet
+        <span id="dayVisit"></span> at 7:00 p.m.
+      </p>
+    </div>
+
+    <header>
+      <nav class="navbar">
+        <img
+          class="logo"
+          src="images/newlogocherokee.webp"
+          alt="Logo Chamber"
+        />
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="https://matvillar.github.io/chamber/index.html">Home</a>
+            </li>
+            <li>
+              <a href="https://matvillar.github.io/chamber/discover.html"
+                >Discover</a
+              >
+            </li>
+            <li>
+              <a href="https://matvillar.github.io/chamber/join.html">Join</a>
+            </li>
+            <li>
+              <a href="https://matvillar.github.io/chamber/directory.html"
+                >Directory</a
+              >
+            </li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <i class="fa-brands fa-facebook fa-2x"></i>
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+        </div>
+        <div class="burger-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="date-time"></div>
+      </nav>
+      <div class="date">
+        <h4><span id="dateHeader"></span></h4>
+      </div>
+    </header>
+    <section class="contact-us">
+      <div class="left-contact">
+        <h2>
+          Let's chat. <br />
+          Tell us more <br />
+          about your business.
+        </h2>
+        <p>Let us help you today.</p>
+      </div>
+      <div class="right-contact">
+        <div class="form-card">
+          <h2>Send us a message</h2>
+          <form>
+            <div class="form-control">
+              <input
+                type="text"
+                name="firstName"
+                placeholder="First Name"
+                required
+              />
+            </div>
+
+            <div class="form-control">
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="email"
+                name="email"
+                placeholder="mymail@email.com"
+                required
+              />
+            </div>
+            <div class="textarea">
+              <label for="businessDes">Subject:</label>
+              <textarea name="businessDes" id="businessDes" rows="5"></textarea>
+            </div>
+            <input type="submit" value="Send it" class="btn btn-form" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="f-section-1">
+        <div class="logo-footer">
+          <img src="images/justlogo.webp" alt="Logo alone" />
+        </div>
+        <div class="title-logo">
+          <h3>
+            Cherokee County <br />
+            Chamber of Commerce
+          </h3>
+        </div>
+        <div class="address">
+          <p>
+            3605 Marietta Hwy <br />
+            Canton, GA 30114
+          </p>
+        </div>
+        <div class="email"><p>info@cherokeechamber.com</p></div>
+        <div class="phone"><p>(770) 345-0400</p></div>
+      </div>
+      <div class="f-section-2">
+        <div class="copyright">
+          <p>&COPY;<span id="year"></span> Cherokee Chamber</p>
+        </div>
+        <div class="student"><h3>Matias Villar</h3></div>
+        <div class="project"><p>WDD 230 Project</p></div>
+        <div class="lastedit">
+          <p>Last Modification: <span id="date"></span></p>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

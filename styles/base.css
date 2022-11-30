@@ -107,7 +107,7 @@ header {
   flex-direction: column;
   display: none;
 }
-.hero h1 {
+.hero h2 {
   font-size: 3.7rem;
   color: aliceblue;
   text-transform: uppercase;
@@ -343,10 +343,9 @@ footer p {
   padding: 20px;
   text-transform: uppercase;
 }
-.page-title h1 {
+.page-title h2 {
   color: #9c1d25;
   font-size: 1.7rem;
-  font-weight: 600;
 }
 .city-cards {
   padding: 10px;
@@ -580,4 +579,27 @@ textarea {
 }
 .directory-list:nth-child(even) a {
   color: #445c6c;
+}
+/* Contact page */
+
+.contact-us {
+  display: flex;
+  width: 1400px;
+  margin: 20px auto;
+}
+.left-contact {
+  display: none;
+}
+.right-contact {
+  margin: 40px auto;
+}
+.left-contact h2 {
+  color: #445c6c;
+  font-size: 3.4rem;
+  text-shadow: 2px 2px #6c6b6b;
+}
+.left-contact p {
+  font-size: 1.9rem;
+  color: #445c6c;
+  padding: 10px;
 }
