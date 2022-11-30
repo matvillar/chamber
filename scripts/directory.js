@@ -26,6 +26,7 @@ function displayBusinessCards(businessCard) {
   directoryCard.setAttribute('class', 'directory-card');
   directoryImg.setAttribute('src', businessCard.imageURL);
   directoryImg.setAttribute('loading', 'lazy');
+  directoryImg.setAttribute('alt', businessCard.name);
   webLink.setAttribute('href', businessCard.url);
   //  append Childs
 
