@@ -61,9 +61,9 @@ header {
   font-weight: bold;
 }
 
-/* .menu.active {
+.menu.active {
   left: 0;
-} */
+}
 .navbar {
   padding: 20px;
   display: flex;
